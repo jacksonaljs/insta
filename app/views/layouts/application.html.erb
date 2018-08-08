@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Insta</title>
+    <title>InstaTweet</title>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track'=> true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -25,12 +25,15 @@
           </li>
         </ul>
       <h1>
-        <%= link_to 'Insta', '/' %>
+        <%= link_to 'InstaTweet', '/' %>
         <small>//by Jackson Chelote</small>
       </h1>
       </div>
-
+      <div class="row">
+      <div class="col-md-6 col-md-offset-3">
       <%= yield %>
+    </div>
+    </div>
     </div>
   </body>
 
