@@ -1,31 +1,4 @@
-<h1>Welcome</h1>
-
-<p>
-	This is the landing page for <b><i>InstaTweet</i></b> created by Jackson and made using Ruby on Rails.
-</p>
-
-<p>
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-	This text is just a placeholder where we would be replacing it with posts
-</p>
+<% @posts.each do |post| %>
+	<%= render 'posts/post', post: post  %> 
+	<br><br><br>
+<% end %>
